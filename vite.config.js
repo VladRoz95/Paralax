@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  base: '/Paralax/', // заміни <repo-name> на назву свого репозиторію
+  base: '/Paralax/', // назва репозиторію GitHub Pages, регістр важливий
 })
