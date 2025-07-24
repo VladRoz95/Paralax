@@ -5,12 +5,17 @@
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch style.scss:style.css",
-    "dev": "vite"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "sass": "^1.65.1",
     "vite": "^7.0.6"
   },
@@ -24,5 +29,5 @@
     "tiny-emitter": "^1.2.0",
     "virtual-scroll": "^1.5.2"
   },
-  "type": "commonjs"
+  "type": "module"
 }
