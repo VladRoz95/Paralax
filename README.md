@@ -2,7 +2,7 @@
 # Paralax Landing Page
 
 A landing page for paralax effect.
-[DEMO LINK] -https://vladroz95.github.io/Paralax/
+- [DEMO LINK] -https://vladroz95.github.io/Paralax/
 ---
 
 ## Technologies Used
